@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxt/ui', '@nuxt/content'],
-
+  ssr: true,
   tailwindcss: {
     config: {
       content: [
